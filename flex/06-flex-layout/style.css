@@ -25,3 +25,61 @@ input {
   width: 400px;
   margin-bottom: 16px;
 }
+
+/* solution */
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 12px;
+  padding: 0;
+  margin: 10px 20px;
+}
+
+.header, .footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer {
+  background-color: lightgrey;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  /* align-content: center; that didn't work? */
+  justify-content: center;
+  width: 100%;
+}
+
+img, .input, .buttons {
+  align-self: center;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+img {
+  margin-bottom: 10px;
+}
