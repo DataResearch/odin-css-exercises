@@ -46,3 +46,23 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* solution here */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.left, .right {
+  display: flex;
+  gap: 8px;
+  padding: 10px;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  gap: 8px;
+}
+

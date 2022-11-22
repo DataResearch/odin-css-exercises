@@ -64,3 +64,40 @@ button.cancel {
   border: 1px solid #ddd;
   color: royalblue;
 }
+
+/* contenties */
+
+.modal {
+  display: flex;
+}
+
+.iconpos {
+  margin: 10px;
+}
+
+.modaltitle {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header {
+  font-weight: bolder;
+}
+
+.close-button {
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.text {
+  padding-right: 20px;
+}
