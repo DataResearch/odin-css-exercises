@@ -1,0 +1,14 @@
+button {
+    border-radius: 0;
+    font-family: serif;
+    border: 2px outset lightgrey;
+}
+
+.dark {
+    background-color: black;
+    color: white;
+}
+
+.yellowish {
+    background-color: yellow;
+}

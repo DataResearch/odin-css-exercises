@@ -1,0 +1,22 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.classy {
+    background-color: rgb(255, 167, 167);
+}
+
+.cooler {
+    font-size: larger;
+}
+
+#one_id {
+    color: blue;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+#another_id {
+    background-color: lightgreen;
+    font-weight: bold;
+}
